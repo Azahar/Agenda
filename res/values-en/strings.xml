@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Directorio</string>
+    <string name="NombreNoValido">Not valid text.</string>
+    <string name="NombreNuevo">The number have been added.</string>
+    <string name="NoEncontrado">No matches found.</string>
+    <string name="Buscar">Search</string>
+    <string name="Agregar">Add</string>
+    <string name="Cerrar">Close</string>
+    <string name="Volver">Back</string>
+    <string name="Nombre">Name:</string>
+    <string name="Numero">Number:</string>
+    <string name="alerta">The app will close.</string>
+    <string name="ok">Ok</string>
+
+</resources>

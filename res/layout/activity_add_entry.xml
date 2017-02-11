@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.azaharzafra.directorio.AddEntryActivity">
+
+    <LinearLayout
+        android:layout_width="299dp"
+        android:layout_height="471dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/tvNombreAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Nombre" />
+
+        <EditText
+            android:id="@+id/etNombreAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvNumeroAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Numero" />
+
+        <EditText
+            android:id="@+id/etNumeroAdd"
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/bAddAdd"
+            android:layout_width="176dp"
+            android:layout_height="57dp"
+            android:layout_gravity="center"
+            android:text="@string/Agregar"
+            android:onClick="onClickAdd"/>
+
+        <Button
+            android:id="@+id/bVolverAdd"
+            android:layout_width="179dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:text="@string/Volver"
+            android:onClick="onClickAdd"/>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

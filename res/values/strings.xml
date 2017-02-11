@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">Directorio</string>
+    <string name="NombreNoValido">Texto no valido.</string>
+    <string name="NombreNuevo">Se ha añadido el nuevo número.</string>
+    <string name="NoEncontrado">No se encuentran coincidencias.</string>
+    <string name="Buscar">Buscar</string>
+    <string name="Agregar">Añadir</string>
+    <string name="Cerrar">Cerrar</string>
+    <string name="Volver">Volver</string>
+    <string name="Nombre">Nombre:</string>
+    <string name="Numero">Número:</string>
+    <string name="alerta">Se va a cerrar la app.</string>
+    <string name="ok">Vale</string>
+
+</resources>
